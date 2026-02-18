@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfrom Scale</title>
+    <style>
+        .Rotate {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            border: 3px solid;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 2s ease-in;
+        }
+
+        #Rotate1 {
+            background-color: violet;
+        }
+
+        #Rotate1:hover {
+            transform: scale(2);
+        }
+
+        #Rotate2 {
+            background-color: #eec582;
+        }
+
+        #Rotate2:hover {
+            transform:  scale(3);
+        }
+
+        #Rotate3 {
+            background-color: #64b8e1;
+        }
+
+        #Rotate3:hover {
+            transform:  scalex(3)
+        }
+
+        #Rotate4 {
+            background-color: #82ee96;
+        }
+
+        #Rotate4:hover {
+            transform: scaley(3);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+    <div class="Rotate" id="Rotate1">Scale1</div>
+    <div class="Rotate" id="Rotate2">Scale2</div>
+    <div class="Rotate" id="Rotate3">Scale3</div>
+    <div class="Rotate" id="Rotate4">Scale4</div>
+    </main>
+</body>
+</html>
+

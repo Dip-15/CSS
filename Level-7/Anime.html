@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #Box{
+            width: 100px;
+            height: 100px;
+            border: 3px solid;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            border-radius: 10px;
+            font-size: large;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            animation: Ghumja 4s ease-in-out 1s 4 alternate ;
+            
+
+        }
+        @keyframes Ghumja{
+            0%{ left: 50px; top: 0px;}
+            50%{  left: 500px; top: 20px;}
+            100%{ left: 700px; top: 40px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="Box">
+        Box <br>
+        Thank You
+    </div>
+</body>
+</html>

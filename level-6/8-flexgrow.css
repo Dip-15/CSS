@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#heading{
+    margin-left: 200px;
+}
+#container{
+    border: 2px solid;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-grow: 2;
+}   
+.box{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border: 3px solid;
+    margin: 4px;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blueviolet;
+    flex-grow: 3;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: brown;
+}
+ 
+ 

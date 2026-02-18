@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+   text-decoration: none;
+}
+nav{
+    padding-top: 10px;
+    display: flex; 
+    justify-content:space-around;
+    height: 40px;
+}
+header{
+    width: 100vw;
+    background-color: aquamarine;
+    border: 5px  black;
+}

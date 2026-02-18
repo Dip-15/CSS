@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Transition</title>
+    <style>
+        .progress-container{
+          width: 80%;
+          height: 30px;  
+          background-color: beige;
+          border: 2px solid;
+          border-radius: 20px;
+        }
+        .progress-bar{
+            background-color: blueviolet;
+            height: 100%;
+            width: 20%;
+            border-radius: 20px;
+            animation: animate 3s ;
+        }
+        @keyframes animate {
+            0% {width: 0%}
+            50%{width: 85%}
+            80%{width: 40%}
+            100%{width: 100%}
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar">
+        </div>
+    </div>
+</body>
+</html>

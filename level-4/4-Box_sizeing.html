@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizeing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Box{
+            width: 50px;
+            height: 35px;
+            text-align: center;
+            margin: 10px;
+            padding: 20px 10px 10px 10px;
+        }
+        #b1{
+            background-color: cadetblue;
+            border: 5px dashed black;
+            box-sizing: border-box;
+            
+        }
+        #b2{
+            background-color:blueviolet; 
+            border: 5px dashed black;
+            box-sizing: content-box;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="b1" class="Box">first</div>
+    <div id="b2" class="Box">Second</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfrom Rotate</title>
+    <style>
+        .Rotate {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            border: 3px solid;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 0.5 ease-in;
+        }
+
+        #Rotate1 {
+            background-color: violet;
+        }
+
+        #Rotate1:hover {
+            transform: rotate(45deg);
+        }
+
+        #Rotate2 {
+            background-color: #eec582;
+        }
+
+        #Rotate2:hover {
+            transform: rotatex(45deg);
+        }
+
+        #Rotate3 {
+            background-color: #64b8e1;
+        }
+
+        #Rotate3:hover {
+            transform: rotatey(45deg);
+        }
+
+        #Rotate4 {
+            background-color: #82ee96;
+        }
+
+        #Rotate4:hover {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Rotate" id="Rotate1">Rotate1</div>
+    <div class="Rotate" id="Rotate2">Rotate2</div>
+    <div class="Rotate" id="Rotate3">Rotate3</div>
+    <div class="Rotate" id="Rotate4">Rotate4</div>
+</body>
+
+</html>

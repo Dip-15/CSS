@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        .{
+            margin: 0;
+            padding: 0;
+        }
+        .Box{
+            background-color: aquamarine;
+            width: 70px;
+            height: 70px;
+            margin: 15px;
+            text-align: center;
+        }
+        #Box1{
+            position: static;
+        }
+        #Box2{
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+        #Box3{
+            position: absolute;
+            top: 50px;
+            left: 8px;
+        }
+        #Box4{
+            position: fixed;
+            top: 40px; 
+            right: 50px; 
+        }  
+    </style>
+</head>
+<body>
+    <div id="Box1" class="Box">static</div>
+    <div id="Box2" class="Box">Relative</div>
+    <div id="Box3" class="Box">absolute</div>
+    <div id="Box4" class="Box">Fixed</div>
+    <!-- just for showing scroll add extra Box -->
+    <div class="Box">Show Off</div>
+    <div class="Box">Show Off</div>
+    <div class="Box">Show Off</div>
+    <div class="Box">Show Off</div>
+    <div class="Box">Show Off</div>
+    <div class="Box">Show Off</div>
+    <div class="Box">Show Off</div>
+</body>
+</html>

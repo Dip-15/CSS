@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfrom-Translate Rotate</title>
+    <style>
+        .Translate {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            border: 3px solid;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 1s ease-in;
+        }
+
+        #Translate1 {
+            background-color: violet;
+        }
+
+        #Translate1:hover {
+            transform: translate(50px);
+        }
+
+        #Translate2 {
+            background-color: #eec582;
+        }
+
+        #Translate2:hover {
+            transform: translate(50px, 50px);
+        }
+
+        #Translate3 {
+            background-color: #64b8e1;
+        }
+
+        #Translate3:hover {
+            transform: translatex(-50px)
+        }
+
+        #Translate4 {
+            background-color: #82ee96;
+        }
+
+        #Translate4:hover {
+            transform: translatey(50px);
+        }
+
+        #Skew {
+            background-color: cadetblue;
+        }
+
+        #Skew:hover {
+            transform:skew(90deg)
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="Translate" id="Translate1">Translate1</div>
+        <div class="Translate" id="Translate2">Translate2</div>
+        <div class="Translate" id="Translate3">Translate3</div>
+        <div class="Translate" id="Translate4">Translate4</div>
+        <div class="Translate" id="Skew">Skew</div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#heading{ 
+    margin-left: 340px;
+    text-decoration: underline;
+    text-decoration-style: wavy;  
+}
+#container{
+    border: 2px solid;
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    border: 3px solid;
+    margin: 4px;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color: cadetblue;
+    align-self:flex-start;
+}
+#box4{
+    background-color: brown;
+}
+ 
